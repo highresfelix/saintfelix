@@ -103,16 +103,17 @@ nav select {
     display:none
 }
 
-#video {
+#background-video {
  position: relative;
  background: transparent;
 }
 
-.ytplayer-container {
+.ytplayer-container{
  position: absolute;
  top: 0;
  z-index: -1;
 }
+
 
 
 @media only screen and (max-width: 640px) {
