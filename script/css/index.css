@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height:1.6em
+}
+
+#site {
+    margin: 0 auto;
+    padding:22px
+}
+
+#canvas {
+    padding: 0;
+    max-width: 886px;
+    margin:0 auto
+}
+
+#header {
+    padding: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    text-align: center;
+    width:100%
+}
+
+#header #headerInfo {
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom:0px
+}
+
+#navBlock nav, #categoryNav nav {
+    width: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(5, 5, 6, 0);
+    border-top: 1px solid rgba(5, 5, 6, 0);
+    margin: 0;
+    padding:28px 0
+}
+
+#navBlock nav ul, #categoryNav nav ul {
+    font-size: 12px;
+    line-height:1.5em
+}
+
+#navBlock nav ul li, #categoryNav nav ul li {
+    display: inline-block;
+    text-align: center;
+    * display:inline;
+    * zoom:1
+}
+
+#navBlock nav ul li a, #categoryNav nav ul li a {
+    padding:0 .8em
+}
+
+#navBlock nav.main-nav .folder, #categoryNav nav.main-nav .folder {
+    position:relative
+}
+
+#navBlock nav.main-nav .folder .subnav, #categoryNav nav.main-nav .folder .subnav {
+    display:none
+}
+
+#navBlock nav.main-nav .folder .subnav ul, #categoryNav nav.main-nav .folder .subnav ul {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(5, 5, 6, 0);
+    padding:.5em 0
+}
+
+#navBlock nav.main-nav .folder .subnav li, #categoryNav nav.main-nav .folder .subnav li {
+    display: list-item;
+    float: none;
+    text-align:left
+}
+
+#navBlock nav.main-nav .folder .subnav li a, #categoryNav nav.main-nav .folder .subnav li a {
+    display: block;
+    white-space: nowrap;
+    padding: .25em 1em;
+    line-height:1.4em
+}
+
+#navBlock nav.main-nav .folder:hover .subnav, #categoryNav nav.main-nav .folder:hover .subnav, #navBlock nav.main-nav .folder:focus .subnav, #categoryNav nav.main-nav .folder:focus .subnav {
+    display: block;
+    position: absolute;
+    top: 1.5em;
+    left: -.25em;
+    z-index:1000
+}
+
+#navBlock .category-nav, #categoryNav .category-nav {
+    padding:0
+}
+
+#navBlock li.filter, #categoryNav li.filter {
+    display: none;
+    text-align:left
+}
+
+nav select {
+    display:none
+}
+
+#video {
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container {
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    #headerWrapper {
+        margin:0 20px
+    }
+}
