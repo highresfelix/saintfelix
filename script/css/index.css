@@ -5,8 +5,10 @@ body {
 }
 
 #site {
-    margin: 0 auto;
-    padding:22px
+  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding:22px
 }
 
 #canvas {
@@ -113,6 +115,33 @@ nav select {
  top: 0;
  z-index: -1;
 }
+
+#footerWrapper {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+
+  color: #000;
+  font-size:11px
+}
+
+#footer .html-block a, #footer .html-block a:link, #footer .html-block a:visited {
+    color:#000
+}
+
+#footer .html-block a:hover, #footer .html-block a:active {
+    color:#595959
+}
+
+#footer p, #footer ul, #footer ol {
+    font-size:11px
+}
+
 
 
 
