@@ -29,6 +29,27 @@ body {
     margin-bottom:0px
 }
 
+#header h1.logo .placed-logo-image {
+    display:none
+}
+
+#header h1.logo .placed-site-title {
+    display:inline
+}
+
+#header h1.logo.image .placed-logo-image {
+    display:inline
+}
+
+#header h1.logo.image .placed-logo-image img {
+    width: 100px;
+    height:auto
+}
+
+#header h1.logo.image .placed-site-title {
+    display:none
+}
+
 #navBlock nav, #categoryNav nav {
     width: auto;
     text-align: center;
@@ -118,7 +139,23 @@ nav select {
 
 @media only screen and (max-width: 640px) {
 
+    #header h1.logo.image .placed-logo-image img {
+        max-width: 100%;
+        height:auto
+    }
+
     #headerWrapper {
         margin:0 20px
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #header {
+        padding-bottom:28px !important
+    }
+
+    #header h1.logo.image .placed-logo-image img {
+        max-width: 100%;
+        height:auto
     }
 }
